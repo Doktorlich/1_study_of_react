@@ -14,7 +14,6 @@ li{
         grid-template-columns: 70px  1fr;
 }
 
-
 .down-header{
     display: flex;
 justify-content: center;
@@ -27,11 +26,17 @@ justify-content: center;
     display: flex;
     justify-content: space-between;
 }
-.element-left, .element-right{
+.element__left, .element__right{
     
     background-color: #fff;
     width: 70px;
     height: 70px;
+}
+.element__right{
+    background: url(../images/icons.jpg) -5px -75px;
+}
+.element__left{
+    background: url(../images/icons.jpg) 535px -460px ; 
 }
 .header {
    grid-area: header;
@@ -39,7 +44,7 @@ justify-content: center;
 }
 .nav {
    grid-area: nav;
-    background-color: rgb(53, 1, 173);
+    background-color: rgb(224, 223, 226);
 }
 .content {
    grid-area: main;
@@ -55,7 +60,19 @@ nav{
 }
   nav li{    
         list-style-type: none;
-       margin-left: 10px;
+     
+      margin-right: 20px;
+       
+    }
+
+    .icons__i-style{
+
         width: 70px;
         height: 50px;
     }
+    .nav .icons .icons__i-1{
+   
+        width: 70px;
+        height: 50px;
+    
+   }

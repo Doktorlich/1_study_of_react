@@ -1,19 +1,19 @@
 import React from "react";
-
+import  Img  from "../images/icons.svg";
 const NavBar = () => {
     return (
         <nav className="nav">
-            <ul className="nav__icons">
-                <li className="icons-1"><a href="#"><img src="../images/icons.jpg"/></a></li>
-                <li className="icons-2"><a href="#"><img src="../images/icons.jpg"/></a></li>
-                <li className="icons-3"><a href="#"><img src="../images/icons.jpg"/></a></li>
-                <li className="icons-4"><a href="#"><img src="../images/icons.jpg"/></a></li>
-                <li className="icons-5"><a href="#"><img src="../images/icons.jpg"/></a></li>
-                <li className="icons-6"><a href="#"><img src="../images/icons.jpg"/></a></li>
-                <li className="icons-7"><a href="#"><img src="../images/icons.jpg"/></a></li>
-                <li className="icons-8"><a href="#"><img src="../images/icons.jpg"/></a></li>
-                <li className="icons-9"><a href="#"><img src="../images/icons.jpg"/></a></li>
-                <li className="icons-10"><a href="#"><img src="../images/icons.jpg"/></a></li>
+            <ul className="icons">
+                <li className="icons__i-1 icons__i-style"><a href="#"><img src={Img} alt="ERROR"/></a></li>
+                <li className="icons__i-2 icons__i-style"><a href="#"><img src="../images/icons.jpg"/></a></li>
+                <li className="icons__i-3 icons__i-style"><a href="#"><img src="../images/icons.jpg"/></a></li>
+                <li className="icons__i-4 icons__i-style"><a href="#"><img src="../images/icons.jpg"/></a></li>
+                <li className="icons__i-5 icons__i-style"><a href="#"><img src="../images/icons.jpg"/></a></li>
+                <li className="icons__i-6 icons__i-style"><a href="#"><img src="../images/icons.jpg"/></a></li>
+                <li className="icons__i-7 icons__i-style"><a href="#"><img src="../images/icons.jpg"/></a></li>
+                <li className="icons__i-8 icons__i-style"><a href="#"><img src="../images/icons.jpg"/></a></li>
+                <li className="icons__i-9 icons__i-style"><a href="#"><img src="../images/icons.jpg"/></a></li>
+                <li className="icons__i-10 icons__i-style"><a href="#"><img src="../images/icons.jpg"/></a></li>
             </ul>
         </nav>
     );
