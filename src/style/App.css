@@ -10,6 +10,7 @@ li{
         
         grid-template-rows: 70px 70px 1fr;
         grid-template-columns: 70px  1fr;
+        grid-gap: 5px;
 }
 
 .header {

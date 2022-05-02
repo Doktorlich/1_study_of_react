@@ -12,20 +12,24 @@ justify-content: center;
 }
 
 
-.element{
+.one-line-header{
     display: flex;
     justify-content: space-between;
 }
-.element__left, .element__right{
+.one-line-header__left, .one-line-header__right{
     
     background-color: #fff;
     width: 70px;
     height: 70px;
 }
 
-.element__right{
+.one-line-header__right{
     background: url(../../images/icons.jpg) -5px -75px;
 }
-.element__left{
+.one-line-header__left{
     background: url(../../images/icons.jpg) 535px -460px ; 
+}
+
+.one-line-header__search-form{
+  align-items:left;  
 }

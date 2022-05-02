@@ -2,16 +2,25 @@
     display: flex;
     justify-content: center;
     background-color: rgb(104, 32, 250);
+    
 }
 .nav-bar .icons__style {
     list-style-type: none;
     margin-right: 20px;
     width: 70px;
     height: 50px;
+    margin-left: -20px;
+    
 }
 
 
 .nav-bar .list-icons .list-icons__i-1 {
     width: 70px;
     height: 50px;
+    
+    
+}
+.icons__style:hover{
+    background-color: rgb(230, 219, 219);
+    
 }
