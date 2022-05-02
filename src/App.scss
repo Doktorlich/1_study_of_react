@@ -1,13 +1,77 @@
+li{    
+    list-style-type: none;}
+
+
+
 .app-wrapper {
-    display: grid; 
+    display: grid;
     grid-template-areas:
-        "header header"
-        "nav main";
-    grid-template-columns: ;
-    grid-template-rows: ;
+        "header header header"
+        "header header header"
+        "nav main main";
+        
+        grid-template-rows: 70px 70px 1fr;
+        grid-template-columns: 70px  1fr;
 }
 
-header {
+.down-header{
+    display: flex;
+justify-content: center;
+}
+.down-header li{
+    display: inline-flex;
+    margin-right: 5px;
+}
+.element{
+    display: flex;
+    justify-content: space-between;
+}
+.element__left, .element__right{
+    
+    background-color: #fff;
+    width: 70px;
     height: 70px;
+}
+.element__right{
+    background: url(../images/icons.jpg) -5px -75px;
+}
+.element__left{
+    background: url(../images/icons.jpg) 535px -460px ; 
+}
+.header {
+   grid-area: header;
     background-color: rgb(240, 160, 160);
 }
+.nav {
+   grid-area: nav;
+    background-color: rgb(224, 223, 226);
+}
+.content {
+   grid-area: main;
+    background-color: rgb(252, 24, 8);
+}
+
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    
+}
+  nav li{    
+        list-style-type: none;
+     
+      margin-right: 20px;
+       
+    }
+
+    .icons__style{
+
+        width: 70px;
+        height: 50px;
+    }
+    .nav .list-icons .list-icons__i-1{
+   
+        width: 70px;
+        height: 50px;
+    }

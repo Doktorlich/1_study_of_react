@@ -1,0 +1,31 @@
+.header {
+    
+     background-color: rgb(240, 160, 160);
+ }
+ .down-header{
+    display: flex;
+justify-content: center;
+}
+.down-header li{
+    display: inline-flex;
+    margin-right: 5px;
+}
+
+
+.element{
+    display: flex;
+    justify-content: space-between;
+}
+.element__left, .element__right{
+    
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+}
+
+.element__right{
+    background: url(../../images/icons.jpg) -5px -75px;
+}
+.element__left{
+    background: url(../../images/icons.jpg) 535px -460px ; 
+}

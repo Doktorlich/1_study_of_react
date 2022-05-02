@@ -1,5 +1,8 @@
 import React from "react";
 import "./style/App.css";
+import "./components/css/Header.css"
+import "./components/css/NavBar.css";
+import "./components/css/Main.css"
 
 import Header from "./components/Header"
 import NavBar from "./components/NavBar";
