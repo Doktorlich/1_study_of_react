@@ -1,0 +1,40 @@
+.header {
+    
+     background-color: rgb(240, 160, 160);
+ }
+ .downHeader{
+    display: flex;
+    justify-content: center;
+}
+.downHeader li{
+    display: inline-flex;
+    margin-right: 5px;
+}
+
+
+.oneLineHeader{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.oneLineHeader__left, .oneLineHeader__right{
+    
+    background-color: #fff;
+    width: 70px;
+    height: 70px;
+}
+
+.oneLineHeader__right{
+    background: url(../../images/icons.svg) -5px -75px;
+    
+}
+.oneLineHeader__left{
+    background: url(../../images/icons.svg) 535px -460px ; 
+    
+}
+
+/* .one-line-header__search-form{
+   
+    
+} */

@@ -20,10 +20,6 @@ li{
 .nav-bar {
    grid-area: nav;
 }
-.content {
-   grid-area: main;
-    background-color: rgb(252, 24, 8);
-}
 
 
 

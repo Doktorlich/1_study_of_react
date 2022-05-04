@@ -1,12 +1,12 @@
 import React from "react";
-import "./style/App.css";
-import "./components/css/Header.css"
+import "./App.css";
 
-import "./components/css/Main.css"
 
-import Header from "./components/Header"
-import NavBar from "./components/NavBar";
-import Main from "./components/Main";
+
+
+import Header from "./components/Header/Header.jsx"
+import NavBar from "./components/NavBar/NavBar.jsx";
+import Main from "./components/Main/Main.jsx";
 
 const App = () => {
     return (
