@@ -1,11 +1,13 @@
 import React from "react";
-import "./Main.css"
+import "./Main.scss"
+import AdBlock from "./AdBlock/AdBlock.jsx";
+import NewsFeed from "./NewsFeed/NewsFeed";
 const Main = () => {
     return (
     <main className="content">
-       <div className="newsWire">
-
-       </div>
+      <AdBlock/>
+      <NewsFeed/>
+      
     </main>
     );
 };

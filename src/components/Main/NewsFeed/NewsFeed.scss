@@ -1,0 +1,52 @@
+.news-feed {
+    background-color: aliceblue;
+    width: 800px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    .info-post-profile {
+        padding-left: 10px;
+        padding-top: 10px;;
+        display: grid;
+        grid-gap: 5px;
+        grid-template-areas:
+            "photo-profile info-profile info-profile"
+            "photo-profile date-post date-post"
+            "window-comment window-comment window-comment";
+        grid-template-columns: 80px 1fr;
+        grid-template-rows: 50px 1fr;
+        .photo-profile {
+            
+            grid-area: photo-profile;
+            width:80px;
+            height: 80px;
+            border: 1px solid red;
+        }
+        .info-profile {
+            grid-area: info-profile;
+            width: 500px;
+            height: 25px;
+            border: 1px solid rgb(26, 13, 211);
+        }
+        .date-post {
+            grid-area: date-post;
+            width: 150px;
+            height: 25px;
+            border: 1px solid rgb(182, 5, 173);
+        }
+        .window-comment {
+            grid-area: window-comment;
+            width: 600px;
+            height: 50px;
+            border: 1px solid red;
+        }
+    }
+    .image-post {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+    }
+    .block-like {
+    }
+}

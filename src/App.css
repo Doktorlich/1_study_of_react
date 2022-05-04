@@ -13,13 +13,7 @@ li{
         grid-gap: 5px;
 }
 
-.header {
-   grid-area: header;
-    background-color: rgb(240, 160, 160);
-}
-.nav-bar {
-   grid-area: nav;
-}
+
 
 
 
