@@ -6,14 +6,22 @@ li{
     grid-template-areas:
         "header header header"
         "header header header"
-        "nav main main";
+        "nav main main"
+        "footer footer footer";
         
-        grid-template-rows: 70px 70px 1fr;
+        grid-template-rows: 70px 70px 1fr 200px;
         grid-template-columns: 70px  1fr;
         grid-gap: 5px;
 }
 
 
 
-
+html, body{
+    height: 100%;
+    background-color: rgb(231, 231, 231);
+}
+.app-wrapper{
+    position: relative;
+  min-height: 100%;
+}
 

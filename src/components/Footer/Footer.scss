@@ -1,1 +1,33 @@
 
+.footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 70px;
+
+  
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    
+    background-color: rgb(255, 255, 255);
+    .group-link{
+        display: flex;
+        justify-content: space-between;
+        margin-right: 30px;
+        .group-main,
+        .group-blog,
+        .group-olympus,
+        .group-profile{
+            margin-right: 200px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+}         

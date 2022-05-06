@@ -7,7 +7,7 @@ const Main = () => {
     <main className="content">
       <AdBlock/>
       <NewsFeed name="Kira"/>
-      <NewsFeed name="Vlad"/>
+    
     </main>
     );
 };
