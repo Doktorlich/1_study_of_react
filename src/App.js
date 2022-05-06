@@ -1,12 +1,10 @@
 import React from "react";
 import "./App.css";
 
-
-
-
 import Header from "./components/Header/Header.jsx"
 import NavBar from "./components/NavBar/NavBar.jsx";
 import Main from "./components/Main/Main.jsx";
+import Footer from "./components/Footer/Footer";
 
 const App = () => {
     return (
@@ -14,6 +12,7 @@ const App = () => {
            <Header/> 
             <NavBar/>
            <Main/>
+           <Footer/>
         </div>
     );
 };

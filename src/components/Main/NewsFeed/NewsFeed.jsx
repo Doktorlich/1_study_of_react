@@ -1,11 +1,11 @@
 import React from "react";
 import "./NewsFeed.scss"
-const NewsFeed = () => {
+const NewsFeed = (props) => {
     return (
         <div className="news-feed">
             <div className="info-post-profile">
                 <div className="photo-profile">PHOTO</div>
-                <div className="info-profile">Information profile</div>
+                <div className="info-profile"><span>{props.name}</span> Information profile</div>
                 <div className="date-post"> date post</div>
                 <div className="window-comment">comment user</div>
             </div>

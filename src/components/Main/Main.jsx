@@ -6,8 +6,8 @@ const Main = () => {
     return (
     <main className="content">
       <AdBlock/>
-      <NewsFeed/>
-      
+      <NewsFeed name="Kira"/>
+      <NewsFeed name="Vlad"/>
     </main>
     );
 };
