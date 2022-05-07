@@ -7,74 +7,66 @@
     width: 70px;
     position: fixed;
     top: 70px;
-    
 }
 .nav-bar .icons__style {
     list-style-type: none;
-    
+    z-index: 2;
     width: 70px;
     height: 70px;
     margin-right: 40px;
-    
 }
 
-
-
-.icons__style:hover{
-   
+.icons__style:hover {
     border: 1px solid rgb(247, 247, 250);
     box-sizing: border-box;
-  
+
+    background-color: rgb(236, 90, 32);
 }
 
-.list-icon{
-    &__i-1{
-    
-        background: url(../../images/icons.jpg) -5px -75px;
-        background-position: -5px 5px;
+.list-icon {
+    &__i-1 {
+        background: url(../../images/icons.svg) -5px -75px;
+        background-position: -120px -415px;
     }
-    &__i-2{
-        background: url(../../images/icons.jpg) -5px -75px;
-        background-position: -85px 5px;
+    &__i-2 {
+        background: url(../../images/icons.svg) -5px -75px;
+        background-position: -950px -210px;
     }
-    &__i-3{
-        background: url(../../images/icons.jpg) -5px -75px;
-        background-position: -163px 5px;
+    &__i-3 {
+        background: url(../../images/icons.svg) -5px -75px;
+        background-position: -225px -5px;
     }
-    &__i-4{
-        background: url(../../images/icons.jpg) -5px -75px;
-        background-position: -240px 5px;
+    &__i-4 {
+        background: url(../../images/icons.svg) -5px -75px;
+        background-position: -17px -210px;
     }
-    &__i-5{
-        background: url(../../images/icons.jpg) -5px -75px;
-        background-position: -317px 5px;
+    &__i-5 {
+        background: url(../../images/icons.svg) -5px -75px;
+        background-position: -330px -310px;
     }
-    &__i-6{
-        background: url(../../images/icons.jpg) -5px -75px;
-        background-position: -395px 5px;
+    &__i-6 {
+        background: url(../../images/icons.svg) -5px -75px;
+        background-position: -642px -415px;
     }
-    &__i-7{
-        background: url(../../images/icons.jpg) -5px -75px;
-        background-position: -470px 5px;
+    &__i-7 {
+        background: url(../../images/icons.svg) -5px -75px;
+        background-position: -950px -415px;
     }
-    &__i-8{
-        background: url(../../images/icons.jpg) -5px -75px;
-        background-position: -5px 60px;
+    &__i-8 {
+        background: url(../../images/icons.svg) -5px -75px;
+        background-position: -120px -625px;
     }
-    &__i-9{
-        background: url(../../images/icons.jpg) -5px -75px;
-        background-position: -5px 135px;
+    &__i-9 {
+        background: url(../../images/icons.svg) -5px -75px;
+        background-position: -745px -625px;
     }
-    &__i-10{
-        background: url(../../images/icons.jpg) -5px -75px;
-        background-position: -5px 220px;
+    &__i-10 {
+        background: url(../../images/icons.svg) -5px -75px;
+        background-position: -745px -625px;
     }
-  
 }
 
-
-.icons__style img{
+.icons__style img {
     width: 70px;
     height: 70px;
-    
 }
