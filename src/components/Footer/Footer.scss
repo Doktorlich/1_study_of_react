@@ -4,13 +4,36 @@
     display: flex;
     justify-content: space-around;
     margin-left: 70px;
-
-  
     position: absolute;
     height: 200px;
     width: 100%;
-    
     background-color: rgb(255, 255, 255);
+    .info-group{
+        img{
+            border: 1px solid red;
+            box-sizing: border-box;
+            width: 230px;
+            height: 100px;
+           
+        }
+       .social-web-icons{
+           span{
+            display: inline-block;
+              
+            border: 1px solid red;
+            box-sizing: border-box;
+            width: 25px;
+            height: 25px;
+            margin-left: 20px;
+            &:first-child{
+                margin-left: 10px;
+            }
+           }
+          
+
+       }
+        
+    }
     .group-link{
         display: flex;
         justify-content: space-between;

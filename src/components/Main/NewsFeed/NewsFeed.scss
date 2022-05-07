@@ -6,7 +6,7 @@
     margin-left: auto;
     margin-right: auto;
     .info-post-profile {
-        border: 1px solid green;
+       
         padding-left: 10px;
         padding-top: 10px;;
         display: grid;
@@ -54,6 +54,12 @@
         margin-top: 10px;
         width: max-content;
     }
-    .block-like {
+    .block-likes {
+        span{
+            font-weight: bold;
+            font-size: 25px;
+            color: rgb(211, 35, 35);
+
+        }
     }
 }

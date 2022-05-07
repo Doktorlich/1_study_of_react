@@ -14,7 +14,7 @@ const NewsFeed = (props) => {
             </div>
 
             <div className="block-likes">
-                like block
+                like block <span>{props.amountLike}</span>
             </div>
         </div>
     

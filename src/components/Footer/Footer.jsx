@@ -9,7 +9,13 @@ const Footer = () => {
             <div className="info-group">
                 <img src=""  />
                 <p>Text information about the site</p>
-                <div className="social-web-icons"></div>
+                <div className="social-web-icons">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
             </div>
             <div className="group-link">    
                 <div className="group-main">
