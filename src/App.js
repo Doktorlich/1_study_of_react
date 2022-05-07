@@ -1,18 +1,23 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
 
-import Header from "./components/Header/Header.jsx"
+import Header from "./components/Header/Header.jsx";
 import NavBar from "./components/NavBar/NavBar.jsx";
-import Main from "./components/Main/Main.jsx";
+import MembersNewsFeed from "./components/MembersNewsFeed/MembersNewsFeed.jsx";
 import Footer from "./components/Footer/Footer";
+import Activity from "./components/Activity/Activity";
 
 const App = () => {
     return (
         <div className="app-wrapper">
-            <Header/> 
-            <NavBar/>
-            <Main/>
-            <Footer/>
+            <Header />
+            <NavBar />
+            <Activity/>
+            <div className="app-wrapper-content">
+            <MembersNewsFeed/>
+            </div>
+
+            <Footer />
         </div>
     );
 };

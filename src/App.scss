@@ -1,0 +1,28 @@
+li {
+    list-style-type: none;
+}
+
+.app-wrapper {
+    position: relative;
+    min-height: 100%;
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "header header header"
+        "nav main main"
+        "footer footer footer";
+
+    grid-template-rows: 70px 70px 1fr 200px;
+    grid-template-columns: 70px 1fr;
+    grid-gap: 5px;
+    .app-wrapper-content {
+        grid-area: main;
+    }
+}
+
+html,
+body {
+    height: 100%;
+    background-color: rgb(231, 231, 231);
+}
+
