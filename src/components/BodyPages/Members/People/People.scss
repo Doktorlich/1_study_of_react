@@ -1,0 +1,24 @@
+.user {
+    width: 400px;
+    height: 475px;
+    border: 1px solid rgb(2, 2, 2);
+    box-sizing: border-box;
+    &__face {
+        &__photo {
+            border-radius: 50%;
+            border: 1px solid red;
+        }
+        &__name {
+            border: 1px solid red;
+            box-sizing: border-box;
+        }
+    }
+    &__rating {
+        border: 1px solid red;
+        box-sizing: border-box;
+    }
+    &__statistic-icon {
+        border: 1px solid red;
+        box-sizing: border-box;
+    }
+}

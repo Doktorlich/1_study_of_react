@@ -1,13 +1,18 @@
 import React from "react";
 import "./Members.scss" 
+import People from "./People/People";
 
 
 
 const Members = () => {
     return (
-        <div>
-            Members
-        </div>
+        <main className="global-members">
+            <div className="filter"></div>
+            <div className="user-windows">
+                <People />
+                
+            </div>
+        </main>
     );
 };
  

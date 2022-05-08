@@ -6,6 +6,7 @@ import "./Footer.scss"
 const Footer = () => {
     return (
         <footer className="footer">
+            <div className="footer-general">
             <div className="info-group">
                 <img src=""  />
                 <p>Text information about the site</p>
@@ -46,6 +47,7 @@ const Footer = () => {
                     <a href="#">link</a>
                     <a href="#">link</a>
                 </div>
+            </div>
             </div>
         </footer>
     );
