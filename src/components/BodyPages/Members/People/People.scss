@@ -1,24 +1,65 @@
 .user {
+    display: inline-block;
+    position: relative;
+    margin-top: 20px;
+    margin-right: 7px;
+    &:nth-child(3n) {
+        margin-right: 0px;
+    }
+
     width: 400px;
     height: 475px;
     border: 1px solid rgb(2, 2, 2);
     box-sizing: border-box;
-    &__face {
-        &__photo {
+
+    .user__head {
+        display: flex;
+        height: 250px;
+
+        flex-direction: column;
+
+        .user__photo {
+            width: 125px;
+
             border-radius: 50%;
-            border: 1px solid red;
         }
-        &__name {
-            border: 1px solid red;
-            box-sizing: border-box;
+        img {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+        }
+        .user__name {
+            margin-left: auto;
+            margin-right: auto;
         }
     }
-    &__rating {
+    .user__rating {
+        height: 75px;
+        
         border: 1px solid red;
         box-sizing: border-box;
+        
+        .rating{
+            appearance: none;
+            // https://html5css.ru/howto/howto_js_rangeslider.php
+            // background: url(./img/stars.svg) -20px -60px repeat-x;
+            height: 25px;
+        }
     }
-    &__statistic-icon {
+    .user__statistic-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 120px;
         border: 1px solid red;
         box-sizing: border-box;
+
+        span {
+            display: block;
+            margin-right: 10px;
+            width: 42px;
+            height: 50px;
+            background-color: aqua;
+        }
     }
 }
