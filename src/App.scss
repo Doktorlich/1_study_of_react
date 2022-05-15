@@ -17,7 +17,7 @@ body {
         "nav main"
         "nav footer";
 
-    grid-template-rows: 70px 70px 1fr 200px;
+    grid-template-rows: 70px 450px 1fr 200px;
     grid-template-columns: 70px 1fr;
     grid-gap: 5px;
     .app-wrapper-content {

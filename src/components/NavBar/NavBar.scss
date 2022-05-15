@@ -1,17 +1,16 @@
 .nav-bar {
     display: flex;
-    z-index: 2;
     justify-content: center;
     background-color: rgb(255, 255, 255);
     grid-area: nav;
     height: 100%;
     width: 70px;
     position: fixed;
-    top: 70px;
+    top: -15px;
 }
 .nav-bar .icons__style {
     list-style-type: none;
-    z-index: 2;
+  
     width: 70px;
     height: 70px;
     margin-right: 40px;
@@ -25,6 +24,10 @@
 }
 
 .list-icon {
+    &__i-0 {
+        background: url(../../images/icons.svg) -5px -75px;
+        background-position: -333px -623px;
+    }
     &__i-1 {
         background: url(../../images/icons.svg) -5px -75px;
         background-position: -120px -415px;

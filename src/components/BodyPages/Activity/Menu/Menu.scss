@@ -1,0 +1,56 @@
+    .menu {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: flex-end;
+        
+        .overview {
+            
+            height: 115px;
+            width: 110px;
+            border: 1px solid red;
+            box-sizing: border-box;
+            &__img {
+            }
+        }
+        .about {
+            height: 115px;
+            width: 110px;
+            border: 1px solid red;
+            box-sizing: border-box;
+            &__img {
+            }
+        }
+        .activity {
+            height: 115px;
+            width: 110px;
+            border: 1px solid red;
+            box-sizing: border-box;
+            &__img {
+            }
+        }
+        .posts {
+            height: 115px;
+            width: 110px;
+            border: 1px solid red;
+            box-sizing: border-box;
+            &__img {
+            }
+        }
+        .comments {
+            height: 115px;
+            width: 110px;
+            border: 1px solid red;
+            box-sizing: border-box;
+            &__img {
+            }
+        }
+        .more {
+            height: 115px;
+            width: 110px;
+            border: 1px solid red;
+            box-sizing: border-box;
+        }
+        
+    }
+

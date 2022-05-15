@@ -3,12 +3,18 @@ import { NavLink } from "react-router-dom";
 import "./NavBar.scss";
 
 
-
+{/* <object  type="image/svg+xml"
+    height="70"
+    width="150"
+    data="../../images/icons.svg" >
+  
+</object> */}
 
 const NavBar = () => {
     return (
         <nav className="nav-bar">
             <ul className="list-icon">
+                <li className="list-icon__i-0 icons__style"><img /></li>
                 <li className="list-icon__i-1 icons__style"><NavLink to="/MembersNewsFeed"><img /></NavLink ></li>
                 <li className="list-icon__i-2 icons__style"><NavLink to="/Activity"><img /></NavLink></li>
                 <li className="list-icon__i-3 icons__style"><NavLink to="/Members"><img /></NavLink></li>

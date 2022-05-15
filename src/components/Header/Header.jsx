@@ -7,12 +7,11 @@ const Header = () => {
     return (
         <header className="header">
            <div className="one-line-header">
-                <div className="one-line-header__left"></div>
-                <input className="one-line-header__searchForm" type="search" />
+                <div className="">
+                    <input className="one-line-header__searchForm" type="search" />
+                </div>
                 <div className="one-line-header__right"></div>
-                
            </div>
-           
            <div className="down-header">
                <ul className="text-menu">
                    <li className="text-menu__Home"><a href="#">Home</a></li>

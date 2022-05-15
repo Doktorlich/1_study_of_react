@@ -5,7 +5,9 @@
  .down-header{
     display: flex;
     justify-content: center;
-    
+    border:1px solid black;
+    box-sizing: border-box;
+    height: 455px;
     li{
         display: inline-flex;
         margin-right: 5px;
@@ -31,10 +33,10 @@
     background: url(../../images/icons.svg) -16px -110px;
     background-color: #fff;
 }
-.one-line-header__left{
-    background: url(../../images/icons.svg) -333px -623px; 
-    background-color: #fff;
-}
+// .one-line-header__left{
+//     background: url(../../images/icons.svg) -333px -623px; 
+//     background-color: #fff;
+// }
 
 
 /* .one-line-header__search-form{

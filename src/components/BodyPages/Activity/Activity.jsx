@@ -1,14 +1,13 @@
 import React from "react";
-import "./Activity.scss" 
-
-
+import "./Activity.scss";
+import Menu from "./Menu/Menu";
 
 const Activity = () => {
     return (
-        <div>
-            Activity
-        </div>
+        <main className="activity-profile">
+            <Menu/>
+        </main>
     );
 };
- 
+
 export default Activity;
